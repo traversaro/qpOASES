@@ -648,8 +648,8 @@ cdef class PySQProblem:
              cputime=0.0
     ):
         # FIXME: add asserts
-        cpdef np.ndarray nWSR_tmp
-        cpdef np.ndarray cput_tmp
+        cdef np.ndarray nWSR_tmp
+        cdef np.ndarray cput_tmp
         # nWSR_tmp = np.zeros(1, dtype=long)
         # cput_tmp = np.zeros(1, dtype=float)
 
